@@ -3,6 +3,8 @@ import { useFormik } from 'formik';
 import './App.css';
 import { useState } from 'react';
 import Final from './Final';
+import FormikInput from './FormikInput';
+import Formiktag from './Formiktag';
 
 function App() {
   // const [data, setData] = useState([])
@@ -83,7 +85,9 @@ function App() {
             ))
           }
         </table> */}
-        <Final></Final>
+        {/* <Final></Final> */}
+        {/* <FormikInput></FormikInput> */}
+        <Formiktag></Formiktag>
       </>
     </div>
   );
